@@ -1,6 +1,7 @@
 # Alura Challenge: Conversor de Monedas
 
 # Proyecto Alura Monedas
+![Alura Bagde](/Badge-Conversor.png)
 
 Este proyecto es una aplicación para la conversión de diferentes monedas.
 
