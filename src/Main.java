@@ -54,7 +54,7 @@ public class Main {
                 }
                 // sleep for 2 seconds
                 try {
-                    System.out.println("recuerde: sin la API-KEY, el algoritmo va a fallar");
+                    System.out.println("recuerde: sin la correcta API-KEY, el algoritmo va a fallar");
                     Thread.sleep(3000);
                 } catch (InterruptedException e) {
                     e.printStackTrace();

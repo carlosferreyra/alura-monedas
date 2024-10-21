@@ -13,7 +13,7 @@ public class ApiParser {
         // no se olvide de generar su propia api key de la plataforma.
         String API_KEY = dotenv.get("API_KEY");
         if (API_KEY == null || API_KEY.isEmpty()) {
-            throw new ConnectException("Missing API Key");
+            throw new ConnectException("Missing, Wrong or Invalid API Key,");
         }
         //  example request https://v6.exchangerate-api.com/v6/68711f94b735d0794e49a422/latest/USD
         System.out.println("API KEY: " + API_KEY);
